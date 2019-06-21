@@ -1,0 +1,22 @@
+var _object_types = [
+  { "id": 327, "name": "Softwood Board" },
+  { "id": 326, "name": "Hardwood Board" },
+  { "id": 286, "name": "Door Module" },
+  { "id": 288, "name": "Window Module" },
+  { "id": 1130, "name": "Little Boards" },
+  { "id": 1490, "name": "Building Kit" },
+  { "id": 328, "name": "Iron Ore" },
+  { "id": 329, "name": "Copper Ore" },
+  { "id": 402, "name": "Iron Ingot" },
+  { "id": 403, "name": "Copper Ingot" },
+  { "id": 110, "name": "Anvil" },
+  { "id": 283, "name": "Metal Sheet" },
+  { "id": 281, "name": "Nails" },
+  { "id": 361, "name": "Flax Stem" },
+  { "id": 377, "name": "Flax Fibers" },
+  { "id": 260, "name": "Hank of Linen" },
+  { "id": 261, "name": "Linen Cloth" },
+  { "id": 262, "name": "Linen Rope" },
+  { "id": 424, "name": "Thick Leather" },
+  { "id": 425, "name": "Thin Leather" }
+];

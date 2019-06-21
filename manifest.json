@@ -1,0 +1,17 @@
+{
+  "name": "lif-tp-seller",
+  "permissions": [
+    "*://*/*",
+    "activeTab"
+  ],
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://region-eu.lif.online/*"],
+      "include_globs": ["https://region-eu.lif.online/market/market-browser.php*"],
+      "js": ["object_types.js", "godenland_regions.js", "lif-tp-seller.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
