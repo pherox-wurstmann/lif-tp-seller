@@ -7,10 +7,6 @@ _container.style.padding = "10px";
 _container.style.background = "white";
 _container.style.overflowY = "scroll";
 
-var _inv;
-var _itemsSoldSuccess = 0;
-var _itemsSoldCopper = 0;
-
 var _currentTradePostId = -1;
 var _urlParts = window.location.href.split(/\&/);
 for (var i=0;i<_urlParts.length;++i) {
@@ -216,11 +212,6 @@ if (_currentTradePostId == -1) {
   _container.appendChild(_regionalSearchResults);
   _container.appendChild(_regionalBuyResults);
   _container.appendChild(document.createElement("hr"));
-
-  _itemsSoldSuccessContainer = document.createElement("div"); _itemsSoldSuccessContainer.id = "_itemsSoldSuccessContainer";
-  _itemsSoldCopperContainer = document.createElement("div"); _itemsSoldCopperContainer.id = "_itemsSoldCopperContainer";
-  _container.appendChild(_itemsSoldSuccessContainer);
-  _container.appendChild(_itemsSoldCopperContainer);
 }
 
 header0.appendChild(_container);
