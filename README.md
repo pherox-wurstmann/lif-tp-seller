@@ -2,6 +2,8 @@
 
 `lif-tp-seller` is a Google Chrome Extension that adds some basic functionality to search for regional items in the lifeisfeudal.com trading post.
 
+![lif-tp-seller-1](docs/lif-tp-seller-1.gif)
+
 # Installation
 
  - Get the .zip file of the latest Release from https://github.com/pherox-wurstmann/lif-tp-seller/releases
